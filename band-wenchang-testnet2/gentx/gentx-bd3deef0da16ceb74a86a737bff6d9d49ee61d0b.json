@@ -1,0 +1,47 @@
+{
+   "type":"cosmos-sdk/StdTx",
+   "value":{
+      "msg":[
+         {
+            "type":"cosmos-sdk/MsgCreateValidator",
+            "value":{
+               "description":{
+                  "moniker":"『m』『u』『m』『u』",
+                  "identity":"",
+                  "website":"",
+                  "details":""
+               },
+               "commission":{
+                  "rate":"0.100000000000000000",
+                  "max_rate":"0.200000000000000000",
+                  "max_change_rate":"0.010000000000000000"
+               },
+               "min_self_delegation":"1",
+               "delegator_address":"band14ua8v4mla3ksyukj20l3e60fhqx4fesm0zpsq2",
+               "validator_address":"bandvaloper14ua8v4mla3ksyukj20l3e60fhqx4fesmr59n9p",
+               "pubkey":"bandvalconspub1addwnpepq0a7pc2l5wpft34428zzvhc7mm8ldvuf0n5yshq073sh3k0zj7uev8u7vhn",
+               "value":{
+                  "denom":"uband",
+                  "amount":"1000000"
+               }
+            }
+         }
+      ],
+      "fee":{
+         "amount":[
+
+         ],
+         "gas":"200000"
+      },
+      "signatures":[
+         {
+            "pub_key":{
+               "type":"tendermint/PubKeySecp256k1",
+               "value":"A+4NRiwK/hr2ViyVjVy5jq5CJu84Z67zcxOCsQ9lf+Su"
+            },
+            "signature":"nEbf6iW8gJFgtY7cNTifQI0s1UIXW4wEP3vnQhD548J7ema42Ij3EPJek0jgyU0scSbgbI7FYCjPP1n+Ptl2aA=="
+         }
+      ],
+      "memo":"bd3deef0da16ceb74a86a737bff6d9d49ee61d0b@172.26.3.226:26656"
+   }
+}
